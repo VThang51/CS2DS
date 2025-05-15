@@ -32,5 +32,15 @@
 				"de_vertigo"	""
 			}
 		}
+		"de_groupdelta"{
+			"name"	"de_groupdelta"
+			"maps"{
+				"de_train"	""
+				"de_anubis"	""
+				"de_ancient"	""
+				"de_overpass"	""
+				"de_nuke"	""
+			}
+		}
 	}
 }
