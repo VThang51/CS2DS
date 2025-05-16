@@ -24,8 +24,7 @@
 	"mapgroups"{
 		"de_groupalpha"{
 			// mapgroup definition
-			// Defusal Group Alpha
-			"name"	"de_groupalpha"
+			"name"	"Defusal Group Alpha"
 			"maps"{
 				"de_dust2"	""
 				"de_mirage"	""
@@ -34,8 +33,7 @@
 			}
 		}
 		"de_groupdelta"{
-			// Defusal Group Delta
-			"name"	"de_groupdelta"
+			"name"	"Defusal Group Delta"
 			"maps"{
 				"de_train"	""
 				"de_anubis"	""
