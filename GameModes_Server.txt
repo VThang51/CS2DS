@@ -22,7 +22,7 @@
 // https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Dedicated_Servers
 //////////////////////////////////////////////////////////////////////////////////////////////
 	"mapgroup"{
-		"decs_competitive"{
+		"decs_competitivegroup"{
 			// mapgroup definition
 			"name"	"Competitive Map Group"
 			"maps"{
@@ -42,7 +42,7 @@
 				"cs_italy"	""
 			}
 		}
-		"de_wingman"{
+		"de_wingmangroup"{
 			"name"	"Wingman Map Group"
 			"maps"{
 				"de_brewery"	""
@@ -72,7 +72,7 @@
 				"de_nuke"	""
 			}
 		}
-		"decs_community"{
+		"decs_communitygroup"{
 			"name"	"Community Map Group"
 			"maps"{
 				"de_jura"	""
