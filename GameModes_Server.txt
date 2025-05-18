@@ -21,9 +21,39 @@
 // Check the developer wiki for updated community info
 // https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Dedicated_Servers
 //////////////////////////////////////////////////////////////////////////////////////////////
-	"mapgroups"{
-		"de_groupalpha"{
+	"mapgroup"{
+		"decs_competitive"{
 			// mapgroup definition
+			"name"	"Competitive Map Group"
+			"maps"{
+				"de_dust2"	""
+				"de_mirage"	""
+				"de_inferno"	""
+				"de_vertigo"	""
+				"de_train"	""
+				"de_anubis"	""
+				"de_ancient"	""
+				"de_overpass"	""
+				"de_nuke"	""
+				"de_jura"	""
+				"de_grail"	""
+				"cs_agency"	""
+				"cs_office"	""
+				"cs_italy"	""
+			}
+		}
+		"de_wingman"{
+			"name"	"Wingman Map Group"
+			"maps"{
+				"de_brewery"	""
+				"de_dogtown"	""
+				"de_overpass"	""
+				"de_vertigo"	""
+				"de_nuke"	""
+				"de_inferno"	""
+			}
+		}
+		"de_groupalpha"{
 			"name"	"Defusal Group Alpha"
 			"maps"{
 				"de_dust2"	""
@@ -40,6 +70,21 @@
 				"de_ancient"	""
 				"de_overpass"	""
 				"de_nuke"	""
+			}
+		}
+		"decs_community"{
+			"name"	"Community Map Group"
+			"maps"{
+				"de_jura"	""
+				"de_grail"	""
+				"cs_agency"	""
+			}
+		}
+		"cs_hostagegroup"{
+			"name"	"Hostage Group"
+			"maps"{
+				"cs_office"	""
+				"cs_italy"	""
 			}
 		}
 	}
