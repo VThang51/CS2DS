@@ -15,7 +15,7 @@
 //
 // Example:
 //
-// srcds -game csgo +game_mode 1 +mapgroup mg_bomb_se +map de_nuke_se
+// srcds -game csgo +game_mode 1 +mapgroup decs_competitive +map de_dust2
 //
 //
 // Check the developer wiki for updated community info
@@ -85,6 +85,34 @@
 			"maps"{
 				"cs_office"	""
 				"cs_italy"	""
+			}
+		}
+		"arcsde_mapgroup"{
+			"name"	"All Map Group"
+			"maps"{
+				"ar_baggage"	""
+				"ar_pool_day"	""
+				"ar_shoots"	""
+				"cs_agency"	""
+				"cs_italy"	""
+				"cs_office"	""
+				"de_ancient"	""
+				"de_anubis"	""
+				"de_basalt"	""
+				"de_brewery"	""
+				"de_dogtown"	""
+				"de_dust2"	""
+				"de_edin"	""
+				"de_grail"	""
+				"de_inferno"	""
+				"de_jura"	""
+				"de_mirage"	""
+				"de_nuke"	""
+				"de_overpass"	""
+				"de_palais"	""
+				"de_train"	""
+				"de_vertigo"	""
+				"de_whistle"	""
 			}
 		}
 	}
