@@ -3,6 +3,20 @@
 // Values here override the default gamemodes.txt 
 
 "GameModes_Server.txt"{
+	"gameTypes"{
+		"classic"{
+			"gameModes"{
+/////////////////////////////////////////
+// COMPETITIVE
+/////////////////////////////////////////
+				"competitive"{
+					"maxplayers"	"4"
+					// Note that maxplayers doesn't go in the convar block.
+					// Another way to set maxplayers is to add -maxplayers_override XX to the cmd line.
+				}
+			}
+		}
+	}
 //////////////////////////////////////////////////////////////////////////////////////////////
 // Map groups
 //
@@ -15,104 +29,77 @@
 //
 // Example:
 //
-// srcds -game csgo +game_mode 1 +mapgroup decs_competitive +map de_dust2
+// srcds -game csgo +game_mode 1 +mapgroup de_competitive +map de_dust2
 //
 //
 // Check the developer wiki for updated community info
 // https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Dedicated_Servers
 //////////////////////////////////////////////////////////////////////////////////////////////
 	"mapgroups"{
-		"decs_competitivegroup"{
+		"de_premier"{
 			// mapgroup definition
-			"name"	"Competitive Map Group"
+			"name"	"Premier Group"
 			"maps"{
-				"de_dust2"	""
-				"de_mirage"	""
-				"de_inferno"	""
-				"de_vertigo"	""
-				"de_train"	""
-				"de_anubis"	""
 				"de_ancient"	""
-				"de_overpass"	""
+				"de_anubis"	""
+				"de_inferno"	""
+				"de_mirage"	""
 				"de_nuke"	""
-				"de_jura"	""
-				"de_grail"	""
-				"cs_agency"	""
-				"cs_office"	""
-				"cs_italy"	""
+				"de_overpass"	""
+				"de_vertigo"	""
 			}
 		}
-		"de_wingmangroup"{
-			"name"	"Wingman Map Group"
+		"de_competitive"{
+			"name"	"Competitive Group"
 			"maps"{
-				"de_brewery"	""
-				"de_dogtown"	""
-				"de_overpass"	""
-				"de_vertigo"	""
-				"de_nuke"	""
+				"de_ancient"	""
+				"de_anubis"	""
+				"de_dust2"	""
 				"de_inferno"	""
+				"de_mirage"	""
+				"de_nuke"	""
+				"de_train"	""
+			}
+		}
+		"de_wingman"{
+			"name"	"Wingman Group"
+			"maps"{
+				"de_inferno"	""
+				"de_nuke"	""
 			}
 		}
 		"de_groupalpha"{
 			"name"	"Defusal Group Alpha"
 			"maps"{
 				"de_dust2"	""
-				"de_mirage"	""
 				"de_inferno"	""
+				"de_mirage"	""
 				"de_vertigo"	""
 			}
 		}
 		"de_groupdelta"{
 			"name"	"Defusal Group Delta"
 			"maps"{
-				"de_train"	""
-				"de_anubis"	""
 				"de_ancient"	""
-				"de_overpass"	""
+				"de_anubis"	""
 				"de_nuke"	""
+				"de_overpass"	""
+				"de_train"	""
 			}
 		}
-		"decs_communitygroup"{
+		"decs_community"{
 			"name"	"Community Map Group"
 			"maps"{
-				"de_jura"	""
-				"de_grail"	""
 				"cs_agency"	""
+				"de_grail"	""
+				"de_jura"	""
 			}
 		}
-		"cs_hostagegroup"{
+		"cs_hostage"{
 			"name"	"Hostage Group"
 			"maps"{
 				"cs_office"	""
 				"cs_italy"	""
-			}
-		}
-		"arcsde_mapgroup"{
-			"name"	"All Map Group"
-			"maps"{
-				"ar_baggage"	""
-				"ar_pool_day"	""
-				"ar_shoots"	""
-				"cs_agency"	""
-				"cs_italy"	""
-				"cs_office"	""
-				"de_ancient"	""
-				"de_anubis"	""
-				"de_basalt"	""
-				"de_brewery"	""
-				"de_dogtown"	""
-				"de_dust2"	""
-				"de_edin"	""
-				"de_grail"	""
-				"de_inferno"	""
-				"de_jura"	""
-				"de_mirage"	""
-				"de_nuke"	""
-				"de_overpass"	""
-				"de_palais"	""
-				"de_train"	""
-				"de_vertigo"	""
-				"de_whistle"	""
 			}
 		}
 	}
