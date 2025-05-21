@@ -21,7 +21,7 @@
 // Check the developer wiki for updated community info
 // https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Dedicated_Servers
 //////////////////////////////////////////////////////////////////////////////////////////////
-	"mapgroup"{
+	"mapgroups"{
 		"decs_competitivegroup"{
 			// mapgroup definition
 			"name"	"Competitive Map Group"
