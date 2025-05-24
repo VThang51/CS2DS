@@ -13,6 +13,18 @@
 					"maxplayers"	"4"
 					// Note that maxplayers doesn't go in the convar block.
 					// Another way to set maxplayers is to add -maxplayers_override XX to the cmd line.
+					"exec"{
+						// Any config files listed here will be executed after the ones in gamemodes.txt.
+						"exec"  "dedicated.cfg"
+					}
+					"mapgroupsMP"{
+						// List of mapgroups valid for this game mode ( competitive )
+						"de_premier"		""
+						"de_competitive"	""
+						"de_groupalpha"		""
+						"de_groupdelta"		""
+						"cs_hostage"		""
+					}
 				}
 			}
 		}
@@ -29,7 +41,7 @@
 //
 // Example:
 //
-// srcds -game csgo +game_mode 1 +mapgroup de_competitive +map de_dust2
+// srcds -game csgo +game_mode 1 +mapgroup de_premier +map de_ancient
 //
 //
 // Check the developer wiki for updated community info
@@ -87,7 +99,7 @@
 				"de_train"	""
 			}
 		}
-		"decs_community"{
+		"csde_community"{
 			"name"	"Community Map Group"
 			"maps"{
 				"cs_agency"	""
