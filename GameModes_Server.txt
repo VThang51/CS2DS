@@ -15,15 +15,7 @@
 					// Another way to set maxplayers is to add -maxplayers_override XX to the cmd line.
 					"exec"{
 						// Any config files listed here will be executed after the ones in gamemodes.txt.
-						"exec"  "dedicated.cfg"
-					}
-					"mapgroupsMP"{
-						// List of mapgroups valid for this game mode ( competitive )
-						"de_premier"		""
-						"de_competitive"	""
-						"de_groupalpha"		""
-						"de_groupdelta"		""
-						"cs_hostage"		""
+						"exec"  "new_competitive.cfg"
 					}
 				}
 			}
@@ -48,21 +40,9 @@
 // https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Dedicated_Servers
 //////////////////////////////////////////////////////////////////////////////////////////////
 	"mapgroups"{
-		"de_premier"{
+		"de_activeduty"{
 			// mapgroup definition
-			"name"	"Premier Group"
-			"maps"{
-				"de_ancient"	""
-				"de_anubis"	""
-				"de_inferno"	""
-				"de_mirage"	""
-				"de_nuke"	""
-				"de_overpass"	""
-				"de_vertigo"	""
-			}
-		}
-		"de_competitive"{
-			"name"	"Competitive Group"
+			"name"	"Active Duty Group"
 			"maps"{
 				"de_ancient"	""
 				"de_anubis"	""
@@ -73,11 +53,13 @@
 				"de_train"	""
 			}
 		}
-		"de_wingman"{
-			"name"	"Wingman Group"
+		"csde_reserves"{
+			"name"	"Reserves Group"
 			"maps"{
-				"de_inferno"	""
-				"de_nuke"	""
+				"cs_italy"	""
+				"cs_office"	""
+				"de_overpass"	""
+				"de_vertigo"	""
 			}
 		}
 		"de_groupalpha"{
@@ -97,14 +79,6 @@
 				"de_nuke"	""
 				"de_overpass"	""
 				"de_train"	""
-			}
-		}
-		"csde_community"{
-			"name"	"Community Map Group"
-			"maps"{
-				"cs_agency"	""
-				"de_grail"	""
-				"de_jura"	""
 			}
 		}
 		"cs_hostage"{
