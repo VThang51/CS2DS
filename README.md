@@ -4,7 +4,7 @@
 - Move [new_competitive.cfg](https://github.com/VThang51/CS2DS/raw/refs/heads/main/new_competitive.cfg) to the directory as written in line 1 or 4
   - Use the `exec` command to execute:
 ```
-exec ds.cfg
+exec new_competitive.cfg
 ```
 # If your country blocks Steam, use Cloudflare or Google DNS to bypass the block:
 - Cloudflare DNS:
